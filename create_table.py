@@ -14,7 +14,7 @@ def main():
     "age"	INTEGER);
     
     
-    """  # TO DO: 後で書く
+    """
 
     # SQL文を実行する
     conn.execute(sql)
