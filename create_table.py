@@ -11,9 +11,7 @@ def main():
     sql = """
     CREATE TABLE "members" (
     "name"	TEXT,
-    "age"	INTEGER);
-    
-    
+    "age"	INTEGER);    
     """
 
     # SQL文を実行する
