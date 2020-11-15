@@ -27,6 +27,17 @@ def main():
         age = result[1]
         print(f'{name}さん {age}歳')
 
+    # 参考
+    for (name, age) in results:
+        print(f'{name}さん {age}歳')
+
+    for result in results:
+        name, age = result
+        print(f'{name}さん {age}歳')
+
+    for result in results:
+        name, age = result[0], result[1]
+        print(f'{name}さん {age}歳')
 
 if __name__ == '__main__':
     main()
