@@ -19,7 +19,7 @@ def main():
 
     # ミニ課題: 次のような形式で出力してね
     # Bobさん 25歳
-    # Kenさん 19歳
+    # Tomさん 39歳
     # ...
 
     for result in results:
